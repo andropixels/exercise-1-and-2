@@ -1,10 +1,10 @@
 [package]
-authors = ['Substrate DevHub <https://github.com/substrate-developer-hub>']
+authors = ['Rahul Navgire https://github.com/andropixels/exercise-1-and-2.git']
 edition = '2018'
 homepage = 'https://substrate.dev'
 license = 'Unlicense'
 name = 'node-template-runtime'
-repository = 'https://github.com/substrate-developer-hub/substrate-node-template/'
+repository = 'https://github.com/andropixels/exercise-1-and-2.git'
 version = '3.0.0'
 
 [package.metadata.docs.rs]
@@ -48,6 +48,7 @@ sp-version = { default-features = false, version = '3.0.0' }
 # local dependencies
 pallet-template = { default-features = false, path = '../pallets/template', version = '3.0.0' }
 
+
 [features]
 default = ['std']
 runtime-benchmarks = [
@@ -88,4 +89,5 @@ std = [
     'sp-std/std',
     'sp-transaction-pool/std',
     'sp-version/std',
+  
 ]
